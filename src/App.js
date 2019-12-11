@@ -23,6 +23,7 @@ function App() {
 	  Feat 02 added
     Plus a new one
         </a>
+        <p>This is a new paragraph</p>
       </header>
     </div>
   );
