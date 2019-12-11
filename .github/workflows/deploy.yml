@@ -10,16 +10,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: CHECKOUT
-        run: echo "Checking out branch"
       - uses: actions/checkout@v1
-      - name: GIT ACTIONS
-        run: echo "RUNNING ACTION"
-      - uses: srt32/git-actions@v0.0.3
-        with:
-          args: "git pull origin master"
-      - name: NOW DEPLOYMENT
-        run: echo "Going to deploy to zeit"
       - uses: amondnet/now-deployment@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
