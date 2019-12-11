@@ -8,6 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          feature 06 new line
+        </p>
+        <p>
           feature 04 new line
         </p>
 
