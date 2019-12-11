@@ -8,6 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          feature 04 new line
+        </p>
+
+        <p>
           (MASTER) Edit <code>src/App.js</code> and save to reload. new branch
 
 	  feat-01 added
