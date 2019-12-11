@@ -1,5 +1,7 @@
 name: deploy to zeit
-on: [pull_request]
+on:
+  pull_request:
+    types: [opened, edited, closed]
 jobs:
   deploy:
     runs-on: ubuntu-latest
