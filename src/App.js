@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          feature 04 new line
+          feature 05 new line
         </p>
 
         <p>
@@ -27,7 +27,7 @@ function App() {
 	  Feat 02 added
     Plus a new one
         </a>
-        <p>This is a new paragraph. edited</p>
+        <p>This is a new paragraph. edited feat 5</p>
       </header>
     </div>
   );
