@@ -13,6 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: amondnet/now-deployment@v1
+        if: github.action == 'closed' && github.pull_request.merged == 'true'
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           zeit-token: ${{ secrets.ZEIT_TOKEN }}
