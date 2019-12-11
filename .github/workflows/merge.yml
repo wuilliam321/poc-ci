@@ -1,0 +1,17 @@
+name: merge with master
+on:
+  pull_request:
+    branches:
+      - master
+jobs:   
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CHECKOUT
+        run: echo "Checking out branch"
+      - uses: actions/checkout@v1
+      - name: GIT ACTIONS
+        run: echo "RUNNING ACTION"
+      - uses: srt32/git-actions@v0.0.3
+        with:
+          args: "git pull origin master"
