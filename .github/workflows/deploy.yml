@@ -1,5 +1,8 @@
 name: deploy to zeit
 on:
+  push:
+    branches:
+      - master
   pull_request:
     branches:
       - master
